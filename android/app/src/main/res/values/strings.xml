@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">RNContainer_Android</string>
+    <string name="app_name">RNContainer Android</string>
+
+    <string name="default_toolbar_title">@string/app_name</string>
+    <string name="show_test_app">Show Test App</string>
+    <string name="show_anther_app">Show Another Test App</string>
+    <string name="show_both_app">Show Both App</string>
 </resources>

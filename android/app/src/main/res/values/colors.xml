@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">@android:color/white</color>
+    <color name="colorPrimaryDark">@color/sylo_blue</color>
+    <color name="colorAccent">@color/sylo_blue</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="grey_f2">#f2f2f2</color>
+    <color name="white_trans_50">#80ffffff</color>
+    <color name="white_trans_30">#4Dffffff</color>
+    <color name="light_grey">#d3d3d3</color>
+
+    <color name="tool_bar_bg">@color/sylo_blue</color>
+
+    <color name="tabbar_bg">#2c3e50</color>
+    <color name="tabbar_title_default">#9a9a9a</color>
+    <color name="tabbar_title_active">@color/sylo_blue</color>
+
+    <color name="sylo_blue">#122143</color>
+    <color name="sylo_blue_lighter">#192f60</color>
+    <color name="sylo_blue_darker">#0c162e</color>
+
+    <color name="black_transparent_50">#66000000</color>
+    <color name="grey_f1">#f1f1f1</color>
+
+    <color name="text_title">#323232</color>
+    <color name="text_subtitle">#7e7e7e</color>
+
+
 </resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="JCTextView">
+    </style>
+
+    <style name="JCTextView.Header">
+        <!--custom your font attr-->
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_title</item>
+        <item name="android:textSize">@dimen/text_header_size</item>
+    </style>
+
+    <style name="JCTextView.Title">
+        <!--custom your font attr-->
+        <item name="android:textColor">@color/text_title</item>
+        <item name="android:textSize">@dimen/text_title_size</item>
+    </style>
+
+    <style name="JCTextView.Title.Light">
+        <!--custom your font attr-->
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="JCTextView.Subtitle">
+        <!--custom your font attr-->
+        <item name="android:textColor">@color/text_subtitle</item>
+        <item name="android:textSize">@dimen/text_subtitle_size</item>
+    </style>
+
+    <style name="JCTextView.Subtitle.Light">
+        <!--custom your font attr-->
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>
