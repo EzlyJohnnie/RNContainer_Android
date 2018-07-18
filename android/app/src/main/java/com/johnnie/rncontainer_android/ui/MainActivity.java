@@ -1,5 +1,7 @@
 package com.johnnie.rncontainer_android.ui;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.johnnie.rncontainer_android.R;
@@ -13,6 +15,11 @@ import butterknife.ButterKnife;
  */
 
 public class MainActivity extends BaseActivity {
+
+    public static void startActivity(Context context){
+        Intent intent = new Intent(context, MainActivity.class);
+        context.startActivity(intent);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
