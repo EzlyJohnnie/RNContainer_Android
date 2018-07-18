@@ -37,6 +37,16 @@ public abstract class BaseFeatureFragment extends BaseFragment {
         return hostFragment;
     }
 
+    /**
+     * grey out bottom view, make this fragment look like a dialog
+     * @param isShow
+     */
+    protected void showTopFragmentBackgroundView(boolean isShow) {
+        if(getActivity() != null && getActivity() instanceof BaseActivity) {
+            ((BaseActivity) getActivity()).showTopFragmentBackgroundView(true);
+        }
+    }
+
     @Override
     protected boolean hasOwnMenu(){
         return false;

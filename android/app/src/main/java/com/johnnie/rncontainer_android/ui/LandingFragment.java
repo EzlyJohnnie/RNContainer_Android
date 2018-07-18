@@ -25,6 +25,8 @@ public class LandingFragment extends BaseFeatureFragment {
 
     @OnClick(R.id.btn_show_anther_app)
     public void showAnotherTestApp(){
+        //use a fragment instead of a dialog to avoid dialog dismiss after rotation.
+        //did not use DialogFragment, because I still want the fragment be extended from BaseFragment.
         ((BaseActivity)getActivity()).presentFragment(AnotherRNAppFragment.newInstance(), true);
     }
 

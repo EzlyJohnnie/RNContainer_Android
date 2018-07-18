@@ -35,13 +35,13 @@ public class AnotherRNAppFragment extends BaseFeatureFragment {
     @Override
     public void onStart(){
         super.onStart();
-        ((BaseActivity)getActivity()).showTopFragmentBackgroundView(true);
+        showTopFragmentBackgroundView(true);
     }
 
     @Override
     public void onStop(){
         super.onStop();
-        ((BaseActivity)getActivity()).showTopFragmentBackgroundView(false);
+        showTopFragmentBackgroundView(false);
     }
 
     @Override
